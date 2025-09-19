@@ -1,0 +1,73 @@
+# .dockerignore file to exclude unnecessary files from Docker build context
+
+# Build artifacts
+bin/
+obj/
+out/
+
+# Visual Studio / IDE files
+.vs/
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Git
+.git/
+.gitignore
+.gitattributes
+
+# Docker files (avoid copying itself)
+Dockerfile
+.dockerignore
+
+# Documentation and project files
+README.md
+*.md
+.editorconfig
+
+# Logs
+logs/
+*.log
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Testing
+TestResults/
+test-results.xml
+
+# NuGet packages (should be restored during build)
+*.nupkg
+*.snupkg
+packages/
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# macOS
+.DS_Store
+
+# Linux
+*~
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
