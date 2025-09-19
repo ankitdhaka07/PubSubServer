@@ -24,7 +24,7 @@ A real-time publish-subscribe messaging system built with **ASP.NET Core 9.0**, 
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/ankitdhaka07/PubSubInMemory.git
+   git clone https://github.com/ankitdhaka07/PubSubServer.git
    cd PubSubServer
    ```
 
