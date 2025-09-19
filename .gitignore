@@ -1,0 +1,65 @@
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userprefs
+*.log
+*.pidb
+*.scc
+*.vssscc
+*.builds
+*.tmp
+*.vspscc
+
+# Build artifacts
+[Dd]ebug/
+[Rr]elease/
+[Bb]in/
+[Oo]bj/
+artifacts/
+project.lock.json
+project.fragment.lock.json
+
+# Packages
+packages/
+*.nupkg
+*.snupkg
+
+# Node.js and npm (if using client-side frameworks like Angular/React)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ReSharper
+_ReSharper*/
+*.DotSettings.user
+
+# Rider
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Test Results
+TestResults/
+*.trx
+
+# BenchmarkDotNet artifacts
+BenchmarkDotNet.Artifacts/
+
+# Local configuration files
+appsettings.Development.json
+appsettings.Production.json
+appsettings.Staging.json
+appsettings.Local.json
+*.pubxml
+*.pubxml.user
+
+# Other common files
+*.bak
+*.orig
+*.swp
+*.zip
+*.rar
+*.7z
